@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f256ae6a-dde2-49f0-917d-13b31aea4248" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -77,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
@@ -128,13 +128,13 @@
         <option value="$PROJECT_DIR$/Dockerfile.dev" />
         <option value="$PROJECT_DIR$/dev_build.sh" />
         <option value="$PROJECT_DIR$/run_dev_in_docker.sh" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/App.test.js" />
         <option value="$PROJECT_DIR$/run_test_on_running_app.txt" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -273,7 +273,7 @@
       <updated>1539711523584</updated>
       <workItem from="1539711527144" duration="850000" />
       <workItem from="1539712753474" duration="5427000" />
-      <workItem from="1539777886318" duration="2496000" />
+      <workItem from="1539777886318" duration="2941000" />
     </task>
     <task id="LOCAL-00001" summary="Initial check-in">
       <created>1539722099709</created>
@@ -324,11 +324,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539788003215</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Tweaks to paths to encourage AWS to deploy.">
+      <created>1539790429229</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1539790429229</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8773000" />
+    <option name="totallyTimeSpent" value="9218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -368,7 +375,8 @@
     <MESSAGE value="Corrected indentation in travis.yml" />
     <MESSAGE value="Grr, Corrected to name in travis.yml" />
     <MESSAGE value="Added exposed port for AWS." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added exposed port for AWS." />
+    <MESSAGE value="Tweaks to paths to encourage AWS to deploy." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tweaks to paths to encourage AWS to deploy." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -478,14 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev_build.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -546,6 +546,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
           <folding />
         </state>
       </provider>
