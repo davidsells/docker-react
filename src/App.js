@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Is it live?
+              I was changed on the Feature Branch..
             Edit this <code>src/App.js</code> and save to reload. CHANGED...
           </p>
           <a
